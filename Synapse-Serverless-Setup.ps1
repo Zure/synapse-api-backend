@@ -1,5 +1,6 @@
 #Example powershell script to deploy synapse databases 
 
+#Retrieve parameters from Azure DevOps pipeline powershell task
 [CmdletBinding()]
 param (
     $SynapseServerless,
